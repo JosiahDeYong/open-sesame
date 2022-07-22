@@ -1,10 +1,12 @@
 # Open-Sesame
 
+## Description
+
+
 Deployed URL: https://idakukimiya.github.io/open-sesame/
 GitHub URL: https://github.com/idakukimiya/open-sesame
 
 
-``md
 ![alt text](assets/image/screenshotOS.cbc1.png)
 ![alt text](assets/image/screenshotOS.cbc2.png)
 
@@ -25,8 +27,6 @@ Tasks
 - Test the deployed app using the links i will submit
 - Create a professional readme
 
-
-
 Research
 --------
 - How do I check the user entered length? (Hint: use conditional)
@@ -36,7 +36,6 @@ Research
 
 Steps
 -----
-
 DECLARE VARS
 string password (the result)
 num passLength (user input)
@@ -63,22 +62,4 @@ CONFIRM if user would like special characters
 
 CONFIRM if user would like numbers
 
-
-Tasks
------
-- Read requirements 3-5 times
-- List questions to ask
-- Make a list of items to research
-- Get questions answerwed
-- Do research
-- Break down app into smaller problems
-- Choose problem to start with
-- Pseudocode the problem
-- Code the problem
-- Debug the problem
-- Choose next problem and repeat steps
-- Deploy the app
-- Test the deployed app using the links i will submit
-- Create a professional readme
-- Submit both links (GitHub, and GitHub Pages) in canvas
 
