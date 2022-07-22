@@ -1,33 +1,17 @@
 # Open-Sesame
 
-Tasks
------
 Deployed URL: https://idakukimiya.github.io/open-sesame/
 GitHub URL: https://github.com/idakukimiya/open-sesame
 
 
-Questions
----------
-Q: What if user pass len < 8 or > 128?
-A: Alert message and quit
-
-Q: What is meant by "Special Characters?
-A: Use OWASP list (excluding the space): https://owasp.org/www-community/password-special-characters
-
-Q: What happens if the user doesn't choose ANY character types?
-A: Alert user to choose at least one type and quit
-
-Q: Can the user reset the password?
-A: No. But the user can click the button again to generate a new password
 
 
 Research
 --------
-- Research special characters. (See link above in Questions)
-- Research how to make an alert pop up.
 - How do I check the user entered length? (Hint: use conditional)
 - How do I use Math.random() to pick a random letter?
 - How to randomly select from a specific group of characters? (e.g. upper vs lower)
+- https://w3collective.com/random-password-generator-javascript/
 
 Steps
 -----
@@ -78,6 +62,3 @@ Tasks
 - Create a professional readme
 - Submit both links (GitHub, and GitHub Pages) in canvas
 
-Research Help
------
-- https://w3collective.com/random-password-generator-javascript/
