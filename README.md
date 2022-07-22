@@ -1,5 +1,11 @@
 # Open-Sesame
 
+Tasks
+-----
+Deployed URL: https://idakukimiya.github.io/open-sesame/
+GitHub URL: https://github.com/idakukimiya/open-sesame
+
+
 Questions
 ---------
 Q: What if user pass len < 8 or > 128?
@@ -41,7 +47,8 @@ arr choices (array containing all characters chosen by the user)
 
 PROMPT user for password length
 
-CONFIRM if user would like lower case
+CONFIRM if user 
+would like lower case
 IF user would like lower case
 THEN add all lowerChars to choices
 
@@ -70,3 +77,7 @@ Tasks
 - Test the deployed app using the links i will submit
 - Create a professional readme
 - Submit both links (GitHub, and GitHub Pages) in canvas
+
+Research Help
+-----
+- https://w3collective.com/random-password-generator-javascript/
