@@ -4,6 +4,27 @@ Deployed URL: https://idakukimiya.github.io/open-sesame/
 GitHub URL: https://github.com/idakukimiya/open-sesame
 
 
+``md
+![alt text](assets/image/screenshotOS.cbc1.png)
+![alt text](assets/image/screenshotOS.cbc2.png)
+
+Tasks
+-----
+- Read requirements 3-5 times
+- List questions to ask
+- Make a list of items to research
+- Get questions answerwed
+- Do research
+- Break down app into smaller problems
+- Choose problem to start with
+- Pseudocode the problem
+- Code the problem
+- Debug the problem
+- Choose next problem and repeat steps
+- Deploy the app
+- Test the deployed app using the links i will submit
+- Create a professional readme
+
 
 
 Research
@@ -42,7 +63,6 @@ CONFIRM if user would like special characters
 
 CONFIRM if user would like numbers
 
-..
 
 Tasks
 -----
