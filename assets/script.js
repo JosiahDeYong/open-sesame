@@ -1,4 +1,8 @@
-// Assignment code here
+// Declare the characters that the password can have
+  //strong password have a mix of lowercase & uppercase letters, numbers, & symbols
+var alpha = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var numbers = "0123456789";
+var symbols = "!@#$%^&*_+-=";
 
 
 // Get references to the #generate element
