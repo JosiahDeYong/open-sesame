@@ -1,78 +1,58 @@
 # Open-Sesame
 
+## Table of Content
+
+-[Description](#description)
+
+-[Usage](#usage)
+
+-[Links to Project](#links-to-project)
+
+-[Screenshot](#screenshot)
+
 ## Description
 
-Deployed URL: ("https://idakukimiya.github.io/open-sesame/")
+This project was created to demenstrate JavaScript. The goal of the password generator is to create radomly password that meet the criteria that provides greater security for sensitive data.
 
-GitHub URL: ("https://github.com/idakukimiya/open-sesame")
+## Usage
+
+* GIVEN I need a new, secure password
+
+* WHEN I click the button to generate a password
+
+* THEN I am presented with a series of prompts for password criteria
+
+* WHEN prompted for password criteria
+
+* THEN I select which criteria to include in the password
+
+* WHEN prompted for the length of the password
+
+* THEN I choose a length of at least 8 characters and no more than 128 characters
+
+* WHEN asked for character types to include in the password
+
+* THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
+
+* WHEN I answer each prompt
+
+* THEN my input should be validated and at least one character type should be selected
+
+* WHEN all prompts are answered
+
+* THEN a password is generated that matches the selected criteria
+
+* WHEN the password is generated
+
+* THEN the password is either displayed in an alert or written to the page
+
+## Links to Project
+
+[Deployed URL]("https://idakukimiya.github.io/open-sesame/")
+
+[GitHub URL]("https://github.com/idakukimiya/open-sesame")
+
+## Screenshot
 
 ![alt text](assets/image/screenshotOS.cbc1.png)
 ![alt text](assets/image/screenshotOS.cbc2.png)
-
-Tasks
-
-* Read requirements 3-5 times
-
-* List questions to ask
-
-* Make a list of items to research
-
-* Get questions answerwed
-
-* Do research
-
-* Break down app into smaller problems
-
-* Choose problem to start with
-
-* Pseudocode the problem
-
-* Code the problem
-
-* Debug the problem
-
-* Choose next problem and repeat steps
-
-* Deploy the app
-
-* Test the deployed app using the links i will submit
-
-* Create a professional readme
-
-Research
-
-* How do I check the user entered length? (Hint: use conditional)
-
-* How do I use Math.random() to pick a random letter?
-
-* How to randomly select from a specific group of characters? (e.g. upper vs lower)
-
-* ("https://w3collective.com/random-password-generator-javascript/")
-
-Steps
-
-DECLARE VARS
-string password (the result)
-num passLength (user input)
-bool useUpper (user input)
-bool useLower (user input)
-bool useSpecial (user input)
-bool useNumber (user input)
-arr lowerChars
-arr upperChars
-arr specialChars
-arr numChars
-arr choices (array containing all characters chosen by the user)
-
-PROMPT user for password length
-
-CONFIRM if user
-would like lower case
-IF user would like lower case
-THEN add all lowerChars to choices
-
-CONFIRM if user would like upper case
-
-CONFIRM if user would like special characters
-
-CONFIRM if user would like numbers
