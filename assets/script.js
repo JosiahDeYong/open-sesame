@@ -68,7 +68,7 @@ function generatePassword() {
     possibleCharacters = possibleCharacters.concat(specialCharacters);
   }
 
-  // pick random cards out of new pool for length of password
+  
   let finalPassword = ""
   for (let i = 0; i < numberOfCharacters; i++) {
     let rng =[Math.floor(Math.random() * possibleCharacters.length)];
@@ -78,7 +78,7 @@ function generatePassword() {
   return finalPassword;
 };
 
-// Get references to the #generate element
+
 var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
