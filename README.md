@@ -10,6 +10,8 @@
 
 -[Screenshot](#screenshot)
 
+-[Demo Video](#demo-video)
+
 ## Description
 
 This project was created to demenstrate JavaScript. The goal of the password generator is to create radomly password that meet the criteria that provides greater security for sensitive data.
@@ -56,3 +58,5 @@ This project was created to demenstrate JavaScript. The goal of the password gen
 
 ![alt text](assets/image/screenshotOS.cbc1.png)
 ![alt text](assets/image/screenshotOS.cbc2.png)
+
+## Demo Video
