@@ -11,7 +11,7 @@ function generatePassword() {
   if (numberOfCharacters < 8 || numberOfCharacters > 128) {
     return "Please choose a valid number of characters.";
   } else if (isNaN(numberOfCharacters)) {
-    numberOfCharacters = prompt("Please enter a valid number.");
+    numberOfCharacters = prompt("Enter a valid number.");
   }
   else {
     alert("Your password will be " + numberOfCharacters + " characters long.");
