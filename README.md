@@ -56,7 +56,11 @@ This project was created to demenstrate JavaScript. The goal of the password gen
 
 ## Screenshot
 
-![alt text](assets/image/screenshotOS.cbc1.png)
-![alt text](assets/image/screenshotOS.cbc2.png)
+![To start, click Generate Password](assets/image/Picture1.png)
+![Once completed, the generated password](assets/image/Picture2.png)
 
 ## Demo Video
+
+[Demo Link]("https://drive.google.com/file/d/1YJSEzROS6HGGLq64yf_jxfFIgEt1i8AJ/view")
+
+![Gif](assets/gif/open_sesame.gif)
