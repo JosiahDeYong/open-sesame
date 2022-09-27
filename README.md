@@ -1,5 +1,7 @@
 # Open-Sesame
 
+![demo](assets/image/pwdgen.gif)
+
 ## Table of Contents
 
 [Description](#description)
@@ -46,7 +48,7 @@ THEN the password is either displayed in an alert or written to the page
 
 ## Screenshot of Project
 
-![Screenshot](assets/images/)
+![Screenshot](assets/image/Picture2.png)
 
 ## Technology
 
