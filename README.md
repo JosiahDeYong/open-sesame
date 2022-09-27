@@ -16,7 +16,7 @@
 
 ## Description
 
-The goal of this challenge is to build text editor that runs in the browser. The app will be a single-page application that meets the PWA criteria and function offline.
+The goal of this challenge is to create an application that an employee can use to generate a raandom password based on criteria they've selected. This app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code. 
 
 ## Acceptance Criteria
 
