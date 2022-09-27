@@ -2,59 +2,57 @@
 var generateBtn = document.querySelector('#generate');
 
 function generatePassword() {
-  var pwd = 'password';
-  var pwdresult= "";
-  var choicesresult = [];
-
+  var pwdresult = "";
+  var pwdlength;
+  var userchoices = [];
   // TODO: add code to generate the password here
-  var upppercase = ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "A", "S", "D", "F", "G", "H", "J", "K", "L", "Z", "X", "C", "V", "B", "N", "M"];
+  var uppercase = ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "A", "S", "D", "F", "G", "H", "J", "K", "L", "Z", "X", "C", "V", "B", "N", "M"];
   var lowercase = ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p", "a", "s", "d", "f", "g", "h", "j", "k", "l", "z", "x", "c", "v", "b", "n", "m"];
   var special = ["!", "@", "#", "$", "%", "^", "&", "*", "?"];
   var numbers = [0,1,2,3,4,5,6,7,8,9];
-  var pwdnumbers = [8-100]
 
   //prompts and commands
-  pwdnumbers = window.prompt("Password need to at least 8 characters long!");
-  if(!pwdnumbers){
+  pwdlength = window.prompt("Password need to at least 8 characters long!");
+  if(!pwdlength){
     return "Password Secure!"
-  }else if (8 > pwdnumbers || pwdnumbers > 100){
+  }else if (8 > pwdlength || pwdlength > 100){
     alert("MUST BE AT LEAST 8 CHARACTERS LONG!");
     return "Password Secure!"
   }else {}
 
-  lowercase = window.confirm("Need to have lower case letters!");
-  upppercase = window.confirm("Need to have upper case letters!");
-  special = window.confirm("Must have a special characters!");
-  numbers = window.confirm("Need to have at least one number!");
+  var lowercase = window.confirm("Need to have lower case letters!");
+  var uppercase = window.confirm("Need to have upper case letters!");
+  var special = window.confirm("Must have a special characters!");
+  var numbers = window.confirm("Need to have at least one number!");
 
   if (lowercase === true) {
-    choicesresult = lowercase.concat(choicesresult);
+    userchoices = lowercase.concat(userchoices);
 
   }
 
   if (uppercase === true) {
-    choicesresult = uppercase.concat(choicesresult);
+    userchoices = uppercase.concat(uppercase);
 
   }
 
   if (numbers === true) {
-    choicesresult = numbers.concat(choicesresult);
+    userchoices = numbers.concat(userchoices);
 
   }
 
   if (special === true) {
-    choicesresult = special.concat(choicesresult);
+    userchoices = special.concat(userchoices);
 
   }
 
-  if(!upppercase && !lowercase && !numbers && !special){
+  if(!uppercase && !lowercase && !numbers && !special){
     alert("Don't like the password, click generate password.");
     return "Password Secure!"
   }else {}
 
   //For loop
-  for (i = 0; i < pwdnumbers; i++) {
-    pwdresult = pwdresult + choicesresult[Math.random() * choicesresult.length];
+  for (i = 0; i < pwdlength; i++) {
+    pwdresult = pwdresult + userchoices[Math.random(Math.random() * userchoices.length)];
 
   }
 
