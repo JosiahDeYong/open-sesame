@@ -15,7 +15,23 @@ function generatePassword() {
   lowercase = window.confirm("Need to have lower case letters!");
   upppercase = window.confirm("Need to have upper case letters!");
   special = window.confirm("Must have a special characters!");
-  numbers = window.confirm("Need to have at least one number!")
+  numbers = window.confirm("Need to have at least one number!");
+
+  if (lowercase === true) {
+
+  }
+
+  if (uppercase === true) {
+
+  }
+
+  if (numbers === true) {
+
+  }
+
+  if (special === true) {
+
+  }
 
   return password;
 }
