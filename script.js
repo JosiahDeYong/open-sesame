@@ -12,48 +12,48 @@ function generatePassword() {
   var numbers = [0,1,2,3,4,5,6,7,8,9];
 
   //prompts and commands
-  pwdlength = window.prompt("Password need to at least 8 characters long!");
+  pwdlength = prompt("Password must be at least 8 characters long!");
+
   if(!pwdlength){
     return "Password Secure!"
-  }else if (8 > pwdlength || pwdlength > 100){
+  } else if (8 > pwdlength || pwdlength > 100)  {
     alert("MUST BE AT LEAST 8 CHARACTERS LONG!");
     return "Password Secure!"
-  }else {}
+  } else {}
 
-  var lowercase = window.confirm("Need to have lower case letters!");
-  var uppercase = window.confirm("Need to have upper case letters!");
-  var special = window.confirm("Must have a special characters!");
-  var numbers = window.confirm("Need to have at least one number!");
+  var confirmlower = confirm("Need to have lower case letters!");
+  var confirmupper = confirm("Need to have upper case letters!");
+  var confirmspecial = confirm("Must have a special characters!");
+  var confirmnumbers = confirm("Need to have at least one number!");
 
-  if (lowercase === true) {
+  if (confirmlower === true) {
     userchoices = lowercase.concat(userchoices);
 
   }
 
-  if (uppercase === true) {
+  if (confirmupper === true) {
     userchoices = uppercase.concat(uppercase);
 
   }
 
-  if (numbers === true) {
+  if (confirmnumbers === true) {
     userchoices = numbers.concat(userchoices);
 
   }
 
-  if (special === true) {
+  if (confirmspecial === true) {
     userchoices = special.concat(userchoices);
 
   }
 
-  if(!uppercase && !lowercase && !numbers && !special){
+  if(!confirmupper && !confirmlower && !confirmnumbers && !confirmspecial){
     alert("Don't like the password, click generate password.");
     return "Password Secure!"
   }else {}
 
   //For loop
   for (i = 0; i < pwdlength; i++) {
-    pwdresult = pwdresult + userchoices[Math.random(Math.random() * userchoices.length)];
-
+    pwdresult = pwdresult + userchoices[Math.floor(Math.random() * userchoices.length)];
   }
 
   return pwdresult;
