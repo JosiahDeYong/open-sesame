@@ -137,3 +137,55 @@ button[disabled] {
     font-size: 0.8rem;
   }
 }
+
+.toggle-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.toggle-label {
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.toggle-label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.toggle-slider {
+  position: relative;
+  width: 40px;
+  height: 20px;
+  background-color: #ccc;
+  border-radius: 10px;
+  margin-right: 8px;
+  transition: 0.4s;
+}
+
+.toggle-slider::before {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  border-radius: 50%;
+  transition: 0.4s;
+}
+
+input:checked + .toggle-slider {
+  background-color: rgb(13, 219, 23);
+}
+
+input:checked + .toggle-slider::before {
+  transform: translateX(20px);
+}
