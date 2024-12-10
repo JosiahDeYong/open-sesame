@@ -26,8 +26,29 @@
           ></textarea>
         </div>
         <div class="card-footer">
+          <label for="passwordLength">Password Length: <span id="lengthValue">12</span></label>
+          <input type="range" id="passwordLength" min="8" max="100" value="12" />
+          <div class="toggle-container">
+            <label class="toggle-label">
+              <input type="checkbox" id="includeCapitals" />
+              <span class="toggle-slider"></span>
+              Capitals
+            </label>
+            <label class="toggle-label">
+              <input type="checkbox" id="includeNumbers" />
+              <span class="toggle-slider"></span>
+              Numbers
+            </label>
+            <label class="toggle-label">
+              <input type="checkbox" id="includeSpecials" />
+              <span class="toggle-slider"></span>
+              Specials
+            </label>
+          </div>
           <button id="generate" class="btn">Generate Password</button>
         </div>
+        
+        
       </div>
     </div>
     <script src="script.js"></script>
